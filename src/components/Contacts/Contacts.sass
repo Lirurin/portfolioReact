@@ -1,0 +1,127 @@
+@import "../../common/fonts"
+@import "../../common/mixins"
+  
+.Contacts
+  position: absolute
+  bottom: 50%
+  right: 50%
+  display: flex
+  flex-direction: column
+  max-width: 700px 
+  width: 100%
+  padding: 2rem
+  background-color: #00000040
+  transform: translate(50%, 50%)
+  +media-mh(445px)
+    bottom: auto
+    top: 0
+    transform: translate(50%, 0)
+  +media-mw(800px)
+    max-width: none
+    padding-left: 70px
+  +media-mw(800px)
+    padding: 10px 10px 10px 60px
+
+.Contacts__title
+  margin: 0 0 15px 0
+  font-size: 40px
+  line-height: 40px
+  color: #ffffff
+  text-align: center
+  +media-mh(350px)
+    font-size: 30px
+  +media-mw(425px)
+    font-size: 30px
+
+.Contacts__cont
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+
+.Contacts__form
+  display: flex
+  flex-direction: column
+  width: 85%
+  padding: 20px
+  border: 1px solid #ffffff 
+  margin-top: 15px
+  +media-mw(800px)
+    padding: 10px
+    width: 100%
+
+.Contacts__form-top
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+  +media-mw(425px)
+    flex-direction: column-reverse
+
+.Contacts__label
+  display: flex
+  flex-direction: column
+  color: #ffffff
+  margin-bottom: 10px
+  +media-mw(425px)
+    width: 100%
+
+.Contacts__input
+  height: 40px
+  width: 100%
+  padding: 10px
+  border: 1px solid #ffffff
+  margin-top: 5px
+  color: #ffffff
+  font-size: 15px
+  background: #00000000
+  &--textarea
+    height: 120px
+    resize: none
+  
+.Contacts__links
+  display: flex
+  color: #ffffff
+  font-size: 15px
+  text-align: center
+
+.Contacts__link-wrap
+  display: flex
+  flex-direction: column
+  &:nth-child(1)
+    .Contacts__link
+      background-image: url('./img/github-logo.svg')
+  &:nth-child(2)
+    .Contacts__link
+      background-image: url('./img/user.svg')
+
+.Contacts__link
+  display: block
+  height: 40px 
+  width: 40px
+  margin: 5px 10px 10px 10px
+  border-radius: 50%
+  background-size: contain
+  background-position: center center
+  background-repeat: no-repeat
+  transition: transform .5s ease
+  +media-mw(425px)
+    height: 35px
+    margin-bottom: 0
+
+  &:hover
+    transform: rotateY(180deg)
+    transition: transform .5s ease
+  
+.Contacts__submit
+  align-self: flex-end
+  padding: 10px 30px
+  border: 1px solid #ffffff
+  margin-top: 10px
+  background-color: transparent
+  color: #ffffff
+  font-family: 'Exo', Serif
+  font-size: 15px
+  box-shadow: 0 0 0 0 #ffffff inset
+  transition: box-shadow 0.2s ease
+  &:hover
+    box-shadow: 0 0 7px 0 #ffffff inset
+    transition: box-shadow 0.2s ease

@@ -1,0 +1,180 @@
+@import "../../../common/mixins"
+
+@keyframes cardInfo
+  0% 
+    padding-right: 0
+    background-color: #00000000
+  50%
+    height: 100%
+    width: 25px
+    padding-right: 0
+    background-color: #000000c9
+  100%
+    height: 100%
+    width: 100%
+    padding-right: 25px
+    background-color: #000000c9
+@keyframes cardInfoHide
+  0% 
+    height: 100%
+    width: 100%
+    padding-right: 25px
+    background-color: #000000c9
+  50%
+    height: 100%
+    width: 25px
+    padding-right: 0
+    background-color: #000000c9
+  100%
+    height: 25px
+    width: 25px
+    padding-right: 0
+    background-color: #00000000
+
+@keyframes cardText
+  0% 
+    opacity: 0
+  75%
+    opacity: 0
+  100%
+    opacity: 1
+
+@keyframes cardTextHide
+  0% 
+    opacity: 1
+  10%
+    opacity: 0
+  100%
+    opacity: 0
+
+.Card__item
+  position: relative
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+  width: 255px
+  height: 330px
+  padding: 10px
+  margin: 15px
+  border-radius: 3px
+  background-color: #ffffff0d
+  +media-mw(425px)
+    margin: 10px
+
+.Card__info
+  position: absolute
+  bottom: 0
+  right: 0
+  display: flex
+  flex-direction: column
+  width: 25px
+  height: 25px
+  padding: 25px 0 25px 25px
+  background-color: #00000000
+  color: #ffffff
+  transition: all 0.5s ease
+  overflow: hidden
+  &--active
+    animation: cardInfo 1s ease
+    animation-fill-mode: forwards
+    .Card__info-text
+      animation: cardText 1s ease
+      animation-fill-mode: forwards
+  &--unactive
+    animation: cardInfoHide 1s ease
+    animation-fill-mode: forwards
+    .Card__info-text
+      animation: cardTextHide 1s ease
+      animation-fill-mode: forwards
+
+.Card__info-text
+  width: 100%
+  margin-bottom: 15px
+  opacity: 0
+
+.Card__image
+  width: 100%
+  height: 245px
+  object-fit: cover
+  object-position: top center
+  font-family: 'object-fit: cover; object-position: top center;'
+
+.Card__item-skills
+  display: flex 
+  justify-content: center
+
+.Card__item-title
+  margin: 5px 0 0 0
+  color: #ffffff
+  font-size: 22px
+  text-align: center
+  text-transform: uppercase
+
+.Card__item-skill
+  width: 30px 
+  height: 30px
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: contain
+
+  &:nth-child(1)
+    background-image: url('./img/Html.svg')
+  &:nth-child(2)
+    background-image: url('./img/Css.svg')
+    background-size: 115%
+  &:nth-child(3)
+    background-image: url('./img/javascript.svg')
+  &:nth-child(4)
+    background-image: url('./img/Vue.svg')
+    background-size: 85%
+    background-position-y: 6px
+
+.Card__info-arrow
+  position: absolute
+  bottom: 0
+  right: 0
+  width: 25px
+  height: 25px
+  transition: transform 0.5s ease
+  cursor: pointer
+
+  &--active
+    transform: rotate(180deg)
+    transition: transform .5s ease
+
+.Card__info-line
+  position: absolute
+  width: 10px
+  height: 1px
+  background-color: #ffffff
+
+  &:nth-child(1)
+    top: 8px
+    transform: rotate(-45deg)
+    right: 11px
+
+  &:nth-child(2)
+    top: 8px
+    transform: rotate(45deg)
+    right: 4px
+
+  &:nth-child(3)
+    top: 15px
+    transform: rotate(-45deg)
+    right: 11px
+
+  &:nth-child(4)
+    top: 15px
+    transform: rotate(45deg)
+    right: 4px
+
+.Card__item-git
+  position: absolute
+  bottom: 25px 
+  left: 25px
+  display: block
+  width: auto
+  border-bottom: 1px solid #fff
+  color: #ffffff
+  text-decoration: none

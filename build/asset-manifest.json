@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.efdefcbe.chunk.css",
+    "main.js": "./static/js/main.54bbd1b7.chunk.js",
+    "main.js.map": "./static/js/main.54bbd1b7.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3d2bd151.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3d2bd151.js.map",
+    "static/js/2.09045f42.chunk.js": "./static/js/2.09045f42.chunk.js",
+    "static/js/2.09045f42.chunk.js.map": "./static/js/2.09045f42.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.ef9443157c00962611e4ce4656709e4a.js": "./precache-manifest.ef9443157c00962611e4ce4656709e4a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.efdefcbe.chunk.css.map": "./static/css/main.efdefcbe.chunk.css.map",
+    "static/js/2.09045f42.chunk.js.LICENSE": "./static/js/2.09045f42.chunk.js.LICENSE",
+    "static/media/Card.sass": "./static/media/javascript.58191b31.svg",
+    "static/media/Navigation.sass": "./static/media/portfolio.575de108.svg",
+    "static/media/App.sass": "./static/media/cloud-bg.2f22a11a.jpg",
+    "static/media/Contacts.sass": "./static/media/user.fe610498.svg",
+    "static/media/glitch.jpg": "./static/media/glitch.b91fdae7.jpg",
+    "static/media/taxi.jpg": "./static/media/taxi.4dc7891c.jpg",
+    "static/media/voltonov.jpg": "./static/media/voltonov.a6bb911b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d2bd151.js",
+    "static/js/2.09045f42.chunk.js",
+    "static/css/main.efdefcbe.chunk.css",
+    "static/js/main.54bbd1b7.chunk.js"
+  ]
+}
