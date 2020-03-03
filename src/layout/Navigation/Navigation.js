@@ -27,7 +27,7 @@ const Navigation = (props) => {
           activeClassName="active"
           exact
         />
-        <span className={'nav__frame'}></span> 
+        <span className={'nav__frame'}>with</span> 
       </nav>
     )
 }

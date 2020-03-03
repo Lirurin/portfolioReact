@@ -10,9 +10,11 @@ html, body
 body 
   padding: 0
   margin: 0
+  font-family: 'Exo', Serif
 
 .cont
   position: relative
+  z-index: 1
   width: 100%
   min-height: 100vh
   min-height: calc(var(--vh, 1vh) * 100)
@@ -28,7 +30,6 @@ body
   max-width: 700px
   width: 100%
   min-height: 100%
-  font-family: 'Exo', Serif
   transform: translate(50%, 50%)
   transition: opacity 300ms, max-height 300ms
   +media-mw(800px)
@@ -64,7 +65,6 @@ body
   opacity: 0
   transform: scale(0.8)  translate(50%, 50%)
   transition: opacity 300ms, transform 300ms
-
 
 .page--works-enter
   opacity: 0

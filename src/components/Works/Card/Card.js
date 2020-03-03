@@ -26,7 +26,7 @@ class Card extends React.Component {
     } else {
       if (infoClasses.indexOf('Card__info--unactive')>=0){
         infoClasses.splice(infoClasses.indexOf('Card__info--unactive'), 1)
-      }      
+      }
       infoClasses.push('Card__info--active');
       triggerClasses.push('Card__info-arrow--active')
     }
@@ -59,7 +59,7 @@ class Card extends React.Component {
       gitLink = <a href='this.props.cardData.gitUrl' className={'Card__item-git Card__info-text'}>Код на GitHub</a>;
     }
 
-    objectFitImages(this.fitImage);
+    // objectFitImages(this.fitImage);
 
     return(
     <div className={'Card__item'}>
@@ -98,7 +98,7 @@ class Card extends React.Component {
         <span className={'Card__item-skill'} ></span>
         <span className={'Card__item-skill'} ></span>
         {/* { vueBlock } */}
-      </div>
+       </div>
     </div>
   ) 
   }

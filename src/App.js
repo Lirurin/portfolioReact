@@ -25,7 +25,7 @@ class App extends React.Component {
         {
           website: 'voltonov',
           url: 'https://voltonov.ru',
-          gitUrl: '',
+          gitUrl: 'https://voltonov.ru',
           description: 'Интернет-магазин светильников и комплектующих',
           task: 'Верстка мобильной версии, правки десктоп-версии',
           status: 'Доступен',
@@ -35,7 +35,7 @@ class App extends React.Component {
         {
           website: 'taxi-ubk',
           url: 'https://voltonov.ru',
-          gitUrl: '',
+          gitUrl: 'https://voltonov.ru',
           description: 'Landing Page междугороднего такси по Крыму',
           task: 'Верстка страницы',
           status: 'Недоступен',
@@ -52,16 +52,16 @@ class App extends React.Component {
           cardImg: cardGlitch,
           // vue: false
         },
-        {
-          website: 'symphony',
-          url: 'https://voltonov.ru',
-          gitUrl: 'https://voltonov.ru',
-          description: 'Пример работы. Landing Page ресторана итальянской кухни',
-          task: 'Верстка страницы',
-          status: 'Доступен',
-          cardImg: cardVolt,
-          // vue: true
-        },
+        // {
+        //   website: 'symphony',
+        //   url: 'https://voltonov.ru',
+        //   gitUrl: 'https://voltonov.ru',
+        //   description: 'Пример работы. Landing Page ресторана итальянской кухни',
+        //   task: 'Верстка страницы',
+        //   status: 'Доступен',
+        //   cardImg: cardVolt,
+        //   // vue: true
+        // },
       ],
       isNavOpen: false,
     }

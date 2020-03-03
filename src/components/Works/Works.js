@@ -20,7 +20,6 @@ const Works = (props)=> {
         <Card cardData={cards[0]}/>
         <Card cardData={cards[1]}/>
         <Card cardData={cards[2]}/>
-        {/* <Card cardData={cards[3]}/> */}
       </div>
     </div>
   )
