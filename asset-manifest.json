@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/lirurin.github.io/portfolioReact/static/css/main.03591e14.chunk.css",
-    "main.js": "/lirurin.github.io/portfolioReact/static/js/main.a4af0387.chunk.js",
-    "main.js.map": "/lirurin.github.io/portfolioReact/static/js/main.a4af0387.chunk.js.map",
-    "runtime-main.js": "/lirurin.github.io/portfolioReact/static/js/runtime-main.c7c7e6f1.js",
-    "runtime-main.js.map": "/lirurin.github.io/portfolioReact/static/js/runtime-main.c7c7e6f1.js.map",
-    "static/js/2.e1f8bd1a.chunk.js": "/lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js",
-    "static/js/2.e1f8bd1a.chunk.js.map": "/lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js.map",
-    "index.html": "/lirurin.github.io/portfolioReact/index.html",
-    "precache-manifest.d99545ef2abe9fdcc79e29b964f27ef4.js": "/lirurin.github.io/portfolioReact/precache-manifest.d99545ef2abe9fdcc79e29b964f27ef4.js",
-    "service-worker.js": "/lirurin.github.io/portfolioReact/service-worker.js",
-    "static/css/main.03591e14.chunk.css.map": "/lirurin.github.io/portfolioReact/static/css/main.03591e14.chunk.css.map",
-    "static/js/2.e1f8bd1a.chunk.js.LICENSE": "/lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js.LICENSE",
-    "static/media/Card.sass": "/lirurin.github.io/portfolioReact/static/media/javascript.58191b31.svg",
-    "static/media/Navigation.sass": "/lirurin.github.io/portfolioReact/static/media/portfolio.575de108.svg",
-    "static/media/App.sass": "/lirurin.github.io/portfolioReact/static/media/cloud-bg.333b507e.jpg",
-    "static/media/Contacts.sass": "/lirurin.github.io/portfolioReact/static/media/user.fe610498.svg",
-    "static/media/glitch.jpg": "/lirurin.github.io/portfolioReact/static/media/glitch.f7342212.jpg",
-    "static/media/taxi.jpg": "/lirurin.github.io/portfolioReact/static/media/taxi.b3afd3db.jpg",
-    "static/media/voltonov.jpg": "/lirurin.github.io/portfolioReact/static/media/voltonov.da582e2b.jpg"
+    "main.css": "./static/css/main.cd787474.chunk.css",
+    "main.js": "./static/js/main.b2971687.chunk.js",
+    "main.js.map": "./static/js/main.b2971687.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3d2bd151.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3d2bd151.js.map",
+    "static/js/2.e1f8bd1a.chunk.js": "./static/js/2.e1f8bd1a.chunk.js",
+    "static/js/2.e1f8bd1a.chunk.js.map": "./static/js/2.e1f8bd1a.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.5a399bbcb2bd2ce7a71083e3f3bd9d76.js": "./precache-manifest.5a399bbcb2bd2ce7a71083e3f3bd9d76.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.cd787474.chunk.css.map": "./static/css/main.cd787474.chunk.css.map",
+    "static/js/2.e1f8bd1a.chunk.js.LICENSE": "./static/js/2.e1f8bd1a.chunk.js.LICENSE",
+    "static/media/Card.sass": "./static/media/javascript.58191b31.svg",
+    "static/media/Navigation.sass": "./static/media/portfolio.575de108.svg",
+    "static/media/App.sass": "./static/media/cloud-bg.333b507e.jpg",
+    "static/media/Contacts.sass": "./static/media/user.fe610498.svg",
+    "static/media/glitch.jpg": "./static/media/glitch.f7342212.jpg",
+    "static/media/taxi.jpg": "./static/media/taxi.b3afd3db.jpg",
+    "static/media/voltonov.jpg": "./static/media/voltonov.da582e2b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7c7e6f1.js",
+    "static/js/runtime-main.3d2bd151.js",
     "static/js/2.e1f8bd1a.chunk.js",
-    "static/css/main.03591e14.chunk.css",
-    "static/js/main.a4af0387.chunk.js"
+    "static/css/main.cd787474.chunk.css",
+    "static/js/main.b2971687.chunk.js"
   ]
 }
