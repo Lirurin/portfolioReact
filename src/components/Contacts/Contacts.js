@@ -15,7 +15,7 @@ const Contacts = (props) => {
     <section className='Contacts'>
       <h3 className={'Contacts__title'}>Контакты</h3>
       <div className={'Contacts__cont'}>
-        <form className={'Contacts__form'} method='POST' action="https://lirurin.github.io/zerosouler@gmail.com">
+        <form className={'Contacts__form'} action="https://formspree.io/xpzrkder" method="POST">
           <div className={'Contacts__form-top'}>
             <label className={'Contacts__label'} htmlFor="contactEmail">
               Email
