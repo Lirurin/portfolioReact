@@ -25,30 +25,30 @@ class App extends React.Component {
         {
           website: 'voltonov',
           url: 'https://voltonov.ru',
-          gitUrl: 'https://voltonov.ru',
+          gitUrl: '',
           description: 'Интернет-магазин светильников и комплектующих',
           task: 'Верстка мобильной версии, правки десктоп-версии',
-          status: 'Доступен',
+          status: 'Запущен',
           cardImg: cardVolt,
           // vue: false
         },
         {
           website: 'taxi-ubk',
-          url: 'https://voltonov.ru',
-          gitUrl: 'https://voltonov.ru',
+          url: 'https://taxiubk.000webhostapp.com/#autopark',
+          gitUrl: 'https://github.com/Lirurin/Taxi-UBK',
           description: 'Landing Page междугороднего такси по Крыму',
           task: 'Верстка страницы',
-          status: 'Недоступен',
+          status: 'Доступен на тестовом хостинге',
           cardImg: cardTaxi,
           // vue: false
         },
         {
           website: 'glitch',
-          url: 'https://voltonov.ru',
-          gitUrl: 'https://voltonov.ru',
+          url: 'https://glitch-shop.000webhostapp.com',
+          gitUrl: 'https://github.com/Lirurin/Glitch',
           description: 'Пример работы. Интернет-магазин одежды в стиле "киберпанк"',
           task: 'Верстка страницы',
-          status: 'Доступен',
+          status: 'Доступен на тестовом хостинге',
           cardImg: cardGlitch,
           // vue: false
         },

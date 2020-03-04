@@ -55,7 +55,7 @@ class Card extends React.Component {
     //    vueBlock = <span className={'Card__item-skill'} ></span>;
     // }
     if (this.props.cardData.gitUrl !== '') {
-      gitLink = <a href='this.props.cardData.gitUrl' className={'Card__item-git Card__info-text'}>Код на GitHub</a>;
+      gitLink = <a href={this.props.cardData.gitUrl} className={'Card__item-git Card__info-text'}>Код на GitHub</a>;
     }
 
     objectFitImages();
@@ -84,7 +84,9 @@ class Card extends React.Component {
         </span>
         <span className={'Card__info-text'}>
           Статус проекта: <br/>
-          {this.props.cardData.status}
+          <a className={'Card__info-text Card__info-text--status'} href={this.props.cardData.url} target="_blank" rel="noopener noreferrer">
+             {this.props.cardData.status}
+          </a>
         </span>
         { gitLink }
       </div>
