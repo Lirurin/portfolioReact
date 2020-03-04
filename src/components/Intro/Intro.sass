@@ -1,6 +1,4 @@
-@import "../../common/fonts"
 @import "../../common/mixins"
-
 
 @keyframes headContAppear3
   0%
@@ -29,7 +27,7 @@
   100%
     opacity: 1
 
-.header
+.Intro
   position: absolute
   bottom: 50%
   right: 50%
@@ -45,7 +43,7 @@
     top: 0
     transform: translate(50%, 0)
 
-.header__inner
+.Intro__inner
   max-height: 1px
   padding: 0
   color: #ffffff
@@ -57,7 +55,7 @@
   animation: headContAppear 0.9s ease-in-out, headContAppear2 1.2s ease-in-out
   animation-fill-mode: forwards
 
-.header__title
+.Intro__title
   margin-top: 10px
   font-size: 40px
   opacity: 0
@@ -68,7 +66,7 @@
   +media-mw(425px)
     font-size: 30px
 
-.header__subtitle
+.Intro__subtitle
   margin-bottom: 10px
   font-size: 20px
   opacity: 0
@@ -79,7 +77,7 @@
   +media-mw(425px)
     font-size: 16px
 
-.header__nav
+.Intro__nav
   position: relative
   display: flex
   justify-content: center
@@ -107,19 +105,22 @@
     +media-mw(425px)
       height: 72px
 
-.header__link
+.Intro__link
   width: 50%
   padding: 5px
   color: #ffffff
   font-size: 20px
   text-decoration: none
   text-align: center
+  &:hover, &:focus
+    box-shadow: 0 0 7px 0 #ffffff inset
+    transition: box-shadow 0.2s ease
   +media-mh(350px)
     font-size: 16px
   +media-mw(425px)
     font-size: 16px
 
-.header__git
+.Intro__git
   position: relative
   width: 50px 
   height: 50px
@@ -136,7 +137,7 @@
     height: 30px
     background-color: #ffffff
 
-.header__git-link
+.Intro__git-link
   position: absolute
   top: 50%
   right: 50%
@@ -148,7 +149,7 @@
   transform: translate(50%, -50%) rotateY(0deg)
   transition: transform .5s ease
 
-  &:hover
+  &:hover, &:focus
     transform: translate(50%, -50%) rotateY(180deg)
     transition: transform .5s ease
   

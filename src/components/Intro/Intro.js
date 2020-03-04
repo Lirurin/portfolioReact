@@ -13,16 +13,16 @@ const Intro = (props) => {
     }, []);
 
     return (
-        <header className={"header"}>
-            <div className={'header__inner'}>
-                <h1 className={'header__title'}>Чумаков Эдуард</h1>
-                <p className={'header__subtitle'}>Frontend-разработчик</p>
+        <header className={"Intro"}>
+            <div className={'Intro__inner'}>
+                <h1 className={'Intro__title'}>Чумаков Эдуард</h1>
+                <p className={'Intro__subtitle'}>Frontend-разработчик</p>
             </div>
-            <div className="header__nav">
+            <div className="Intro__nav">
                 <NavLink
                     key={props.routes[1].path}
                     to={props.routes[1].path}
-                    className={'header__link'}
+                    className={'Intro__link'}
                     activeClassName="active"
                     exact
                     onClick={props.handleOpenClick}
@@ -32,7 +32,7 @@ const Intro = (props) => {
                 <NavLink
                     key={props.routes[2].path}
                     to={props.routes[2].path}
-                    className={'header__link'}
+                    className={'Intro__link'}
                     activeClassName="active"
                     exact
                     onClick={props.handleOpenClick}
@@ -40,8 +40,8 @@ const Intro = (props) => {
                 {props.routes[2].name}
                 </NavLink>
             </div>
-            <div className="header__git">
-                <a className={'header__git-link'} href="https://github.com/Lirurin" target="_blank" rel="noopener noreferrer"> </a>
+            <div className="Intro__git">
+                <a className={'Intro__git-link'} href="https://github.com/Lirurin" target="_blank" rel="noopener noreferrer"> </a>
             </div>
         </header>
     )

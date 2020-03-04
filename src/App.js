@@ -1,5 +1,5 @@
 import React from 'react';
-import Intro from './layout/Intro/Intro'
+import Intro from './components/Intro/Intro'
 import Works from './components/Works/Works';
 import { CSSTransition } from "react-transition-group";
 import {BrowserRouter as Router, Route} from 'react-router-dom';
@@ -17,7 +17,7 @@ class App extends React.Component {
     super(props)
     this.state = {
       routes: [
-        { path: '/', name: 'header', Component: Intro },
+        { path: '/', name: 'Интро', Component: Intro },
         { path: '/works', name: 'Работы', Component: Works },
         { path: '/contacts', name: 'Контакты', Component: Contacts },
       ],

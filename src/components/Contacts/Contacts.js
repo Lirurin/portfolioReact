@@ -10,7 +10,7 @@ const Contacts = (props) => {
   useEffect(() => {
     handleOpenClick()
   }, []);
-
+  
   return(
     <section className='Contacts'>
       <h3 className={'Contacts__title'}>Контакты</h3>
@@ -19,7 +19,7 @@ const Contacts = (props) => {
           <div className={'Contacts__form-top'}>
             <label className={'Contacts__label'} htmlFor="contactEmail">
               Email
-              <input className={'Contacts__input'} id={'contactEmail'} type="text" name="Email"/>
+              <input className={'Contacts__input'} id={'contactEmail'} type="email" name="email" required/>
             </label>
             <div className={'Contacts__links'}>
               <div className={'Contacts__link-wrap'}>
@@ -34,7 +34,7 @@ const Contacts = (props) => {
           </div>
           <label className={'Contacts__label'} htmlFor="contactComment">
             Сообщение
-            <textarea className={'Contacts__input Contacts__input--textarea'} id={'contactComment'} name="comment"></textarea>
+            <textarea className={'Contacts__input Contacts__input--textarea'} id={'contactComment'} name="comment" required></textarea>
           </label>
           <button className={'Contacts__submit'} type={'submit'}>Отправить</button>
         </form>

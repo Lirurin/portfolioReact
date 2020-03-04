@@ -11,7 +11,6 @@ class Card extends React.Component {
       triggerCls: ['Card__info-arrow'],
       isTriggered: false,
     };
-    this.fitImage = React.createRef();
   }
 
   handleTriggerClick = () => {
@@ -59,7 +58,7 @@ class Card extends React.Component {
       gitLink = <a href='this.props.cardData.gitUrl' className={'Card__item-git Card__info-text'}>Код на GitHub</a>;
     }
 
-    // objectFitImages(this.fitImage);
+    objectFitImages();
 
     return(
     <div className={'Card__item'}>
@@ -90,7 +89,7 @@ class Card extends React.Component {
         { gitLink }
       </div>
       <a href={this.props.cardData.url} target="_blank" rel="noopener noreferrer">
-        <img className={'Card__image'} ref={this.fitImage} src={this.props.cardData.cardImg} alt="..."/>
+        <img className={'Card__image'} src={this.props.cardData.cardImg} alt="..."/>
       </a>
       <h3 className={'Card__item-title'}>{this.props.cardData.website}</h3>
       <div className={'Card__item-skills'}>
