@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Lirurin.github.io/portfolioReact/static/css/main.0c27863e.chunk.css",
-    "main.js": "/Lirurin.github.io/portfolioReact/static/js/main.a708c3ee.chunk.js",
-    "main.js.map": "/Lirurin.github.io/portfolioReact/static/js/main.a708c3ee.chunk.js.map",
-    "runtime-main.js": "/Lirurin.github.io/portfolioReact/static/js/runtime-main.42b5978a.js",
-    "runtime-main.js.map": "/Lirurin.github.io/portfolioReact/static/js/runtime-main.42b5978a.js.map",
-    "static/js/2.e1f8bd1a.chunk.js": "/Lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js",
-    "static/js/2.e1f8bd1a.chunk.js.map": "/Lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js.map",
-    "index.html": "/Lirurin.github.io/portfolioReact/index.html",
-    "precache-manifest.7d8c4652a178f33e27cb4a031ed94f1a.js": "/Lirurin.github.io/portfolioReact/precache-manifest.7d8c4652a178f33e27cb4a031ed94f1a.js",
-    "service-worker.js": "/Lirurin.github.io/portfolioReact/service-worker.js",
-    "static/css/main.0c27863e.chunk.css.map": "/Lirurin.github.io/portfolioReact/static/css/main.0c27863e.chunk.css.map",
-    "static/js/2.e1f8bd1a.chunk.js.LICENSE": "/Lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js.LICENSE",
-    "static/media/Card.sass": "/Lirurin.github.io/portfolioReact/static/media/javascript.58191b31.svg",
-    "static/media/Navigation.sass": "/Lirurin.github.io/portfolioReact/static/media/portfolio.575de108.svg",
-    "static/media/App.sass": "/Lirurin.github.io/portfolioReact/static/media/cloud-bg.333b507e.jpg",
-    "static/media/Contacts.sass": "/Lirurin.github.io/portfolioReact/static/media/user.fe610498.svg",
-    "static/media/glitch.jpg": "/Lirurin.github.io/portfolioReact/static/media/glitch.f7342212.jpg",
-    "static/media/taxi.jpg": "/Lirurin.github.io/portfolioReact/static/media/taxi.b3afd3db.jpg",
-    "static/media/voltonov.jpg": "/Lirurin.github.io/portfolioReact/static/media/voltonov.da582e2b.jpg"
+    "main.css": "/lirurin.github.io/portfolioReact/static/css/main.03591e14.chunk.css",
+    "main.js": "/lirurin.github.io/portfolioReact/static/js/main.6a7e9a49.chunk.js",
+    "main.js.map": "/lirurin.github.io/portfolioReact/static/js/main.6a7e9a49.chunk.js.map",
+    "runtime-main.js": "/lirurin.github.io/portfolioReact/static/js/runtime-main.c7c7e6f1.js",
+    "runtime-main.js.map": "/lirurin.github.io/portfolioReact/static/js/runtime-main.c7c7e6f1.js.map",
+    "static/js/2.e1f8bd1a.chunk.js": "/lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js",
+    "static/js/2.e1f8bd1a.chunk.js.map": "/lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js.map",
+    "index.html": "/lirurin.github.io/portfolioReact/index.html",
+    "precache-manifest.1763ae60e9998deb2b8caed8d53189c8.js": "/lirurin.github.io/portfolioReact/precache-manifest.1763ae60e9998deb2b8caed8d53189c8.js",
+    "service-worker.js": "/lirurin.github.io/portfolioReact/service-worker.js",
+    "static/css/main.03591e14.chunk.css.map": "/lirurin.github.io/portfolioReact/static/css/main.03591e14.chunk.css.map",
+    "static/js/2.e1f8bd1a.chunk.js.LICENSE": "/lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js.LICENSE",
+    "static/media/Card.sass": "/lirurin.github.io/portfolioReact/static/media/javascript.58191b31.svg",
+    "static/media/Navigation.sass": "/lirurin.github.io/portfolioReact/static/media/portfolio.575de108.svg",
+    "static/media/App.sass": "/lirurin.github.io/portfolioReact/static/media/cloud-bg.333b507e.jpg",
+    "static/media/Contacts.sass": "/lirurin.github.io/portfolioReact/static/media/user.fe610498.svg",
+    "static/media/glitch.jpg": "/lirurin.github.io/portfolioReact/static/media/glitch.f7342212.jpg",
+    "static/media/taxi.jpg": "/lirurin.github.io/portfolioReact/static/media/taxi.b3afd3db.jpg",
+    "static/media/voltonov.jpg": "/lirurin.github.io/portfolioReact/static/media/voltonov.da582e2b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.42b5978a.js",
+    "static/js/runtime-main.c7c7e6f1.js",
     "static/js/2.e1f8bd1a.chunk.js",
-    "static/css/main.0c27863e.chunk.css",
-    "static/js/main.a708c3ee.chunk.js"
+    "static/css/main.03591e14.chunk.css",
+    "static/js/main.6a7e9a49.chunk.js"
   ]
 }
