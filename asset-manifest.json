@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Lirurin.github.io/portfolioReact/static/css/main.0c27863e.chunk.css",
-    "main.js": "/Lirurin.github.io/portfolioReact/static/js/main.6c073e46.chunk.js",
-    "main.js.map": "/Lirurin.github.io/portfolioReact/static/js/main.6c073e46.chunk.js.map",
+    "main.js": "/Lirurin.github.io/portfolioReact/static/js/main.a708c3ee.chunk.js",
+    "main.js.map": "/Lirurin.github.io/portfolioReact/static/js/main.a708c3ee.chunk.js.map",
     "runtime-main.js": "/Lirurin.github.io/portfolioReact/static/js/runtime-main.42b5978a.js",
     "runtime-main.js.map": "/Lirurin.github.io/portfolioReact/static/js/runtime-main.42b5978a.js.map",
     "static/js/2.e1f8bd1a.chunk.js": "/Lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js",
     "static/js/2.e1f8bd1a.chunk.js.map": "/Lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js.map",
     "index.html": "/Lirurin.github.io/portfolioReact/index.html",
-    "precache-manifest.0f44e13ee075833d65267bb1e3fc6b17.js": "/Lirurin.github.io/portfolioReact/precache-manifest.0f44e13ee075833d65267bb1e3fc6b17.js",
+    "precache-manifest.7d8c4652a178f33e27cb4a031ed94f1a.js": "/Lirurin.github.io/portfolioReact/precache-manifest.7d8c4652a178f33e27cb4a031ed94f1a.js",
     "service-worker.js": "/Lirurin.github.io/portfolioReact/service-worker.js",
     "static/css/main.0c27863e.chunk.css.map": "/Lirurin.github.io/portfolioReact/static/css/main.0c27863e.chunk.css.map",
     "static/js/2.e1f8bd1a.chunk.js.LICENSE": "/Lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js.LICENSE",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.42b5978a.js",
     "static/js/2.e1f8bd1a.chunk.js",
     "static/css/main.0c27863e.chunk.css",
-    "static/js/main.6c073e46.chunk.js"
+    "static/js/main.a708c3ee.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Lirurin.github.io/portfolioReact/precache-manifest.0f44e13ee075833d65267bb1e3fc6b17.js"
+  "/Lirurin.github.io/portfolioReact/precache-manifest.7d8c4652a178f33e27cb4a031ed94f1a.js"
 );
 
 self.addEventListener('message', (event) => {

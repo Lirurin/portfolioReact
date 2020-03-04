@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89c7d621f85f7d4371d28af033d85669",
+    "revision": "bc1940fc79ecd6b3e0719a36f75d08b2",
     "url": "/Lirurin.github.io/portfolioReact/index.html"
   },
   {
-    "revision": "35f93f7e942c6909fee6",
+    "revision": "2fe363648b208dd50faa",
     "url": "/Lirurin.github.io/portfolioReact/static/css/main.0c27863e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Lirurin.github.io/portfolioReact/static/js/2.e1f8bd1a.chunk.js.LICENSE"
   },
   {
-    "revision": "35f93f7e942c6909fee6",
-    "url": "/Lirurin.github.io/portfolioReact/static/js/main.6c073e46.chunk.js"
+    "revision": "2fe363648b208dd50faa",
+    "url": "/Lirurin.github.io/portfolioReact/static/js/main.a708c3ee.chunk.js"
   },
   {
     "revision": "b1fe424a62f507433156",
