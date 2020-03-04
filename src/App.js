@@ -2,7 +2,7 @@ import React from 'react';
 import Intro from './components/Intro/Intro'
 import Works from './components/Works/Works';
 import { CSSTransition } from "react-transition-group";
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 import './App.sass';
 import Navigation from './layout/Navigation/Navigation';
 import Contacts from './components/Contacts/Contacts'
