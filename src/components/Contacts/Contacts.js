@@ -28,7 +28,7 @@ const Contacts = (props) => {
               </div>
               <div className={'Contacts__link-wrap'}>
                 Резюме
-                <a className={'Contacts__link'} href="https://github.com/Lirurin" target="_blank" rel="noopener noreferrer"> </a>
+                <a className={'Contacts__link'} href="https://hh.ru/resume/a58c02e3ff07d24b0f0039ed1f664f4d376549" target="_blank" rel="noopener noreferrer"> </a>
               </div>
             </div>
           </div>
